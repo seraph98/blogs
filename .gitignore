@@ -8,3 +8,6 @@ public/
 _multiconfig.yml
 .ssh/
 tags*
+*.iml
+.DS_Store
+
