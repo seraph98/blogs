@@ -8,9 +8,10 @@
     	const hashBuffer = await window.crypto.subtle.digest('SHA-256', data);
     	const hashArray = Array.from(new Uint8Array(hashBuffer));
     	const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-    	return hashHex.substring(0, 50);
+    	return hashHex.substring(0, 40);
 	}
 	hashStringToFixedLength(location.pathname).then( h_id => {
+		console.log('id:', h_id)
     	$.getScript('<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/js/gitalk.js', function () {
     	    var gitalk = new Gitalk({
     	        clientID: '<%=theme.gitalk.ClientID %>',
