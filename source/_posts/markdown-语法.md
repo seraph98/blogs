@@ -1,8 +1,11 @@
 ---
 title: markdown 语法
 date: 2024-11-03 12:15:57
-categories: markdown 技巧
-tags: 奇技淫巧
+categories:
+- markdown
+- 技巧
+tags:
+- 奇技淫巧
 ---
 
 [![Markdown 指南中文版](https://www.markdown.xyz/assets/images/markdown-mark-white.svg) Markdown 指南中文版 ](https://www.markdown.xyz/)
