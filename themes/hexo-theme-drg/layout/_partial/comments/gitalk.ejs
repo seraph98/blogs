@@ -3,6 +3,7 @@
 <script src="https://gist.githubusercontent.com/drg-blog/02758cf38944092d4171ba4aaf5b9d20/raw/ee6d9fbc93ae8dc16dfba020f6a4ddc82db725dd/md5.min.js"></script>
 
 <script type="text/javascript">
+	console.log('id: ', md5(location.pathname))
     $.getScript('<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/js/gitalk.js', function () {
         var gitalk = new Gitalk({
             clientID: '<%=theme.gitalk.ClientID %>',
