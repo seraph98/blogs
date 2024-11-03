@@ -243,7 +243,7 @@ disqus:
 
 gitalk:
   githubID: drg-blog
-  repo: github.com/drg-blog/drg-blog.github.io
+  repo: drg-blog.github.io
   ClientID: Ov23liKKBCGbHwuN5dbQ
   ClientSecret: a05bef604e005c74724b25cc0204e5617a731839
   adminUser: drg-blog
