@@ -1,30 +1,20 @@
 <div id="comments"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://gist.github.com/drg-blog/02758cf38944092d4171ba4aaf5b9d20.js"></script>
 
 <script type="text/javascript">
-	async function hashStringToFixedLength(input) {
-    	const encoder = new TextEncoder();
-    	const data = encoder.encode(input);
-    	const hashBuffer = await window.crypto.subtle.digest('SHA-256', data);
-    	const hashArray = Array.from(new Uint8Array(hashBuffer));
-    	const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-    	return hashHex.substring(0, 10);
-	}
-	hashStringToFixedLength(location.pathname).then( h_id => {
-		console.log('id:', h_id)
-    	$.getScript('<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/js/gitalk.js', function () {
-    	    var gitalk = new Gitalk({
-    	        clientID: '<%=theme.gitalk.ClientID %>',
-    	        clientSecret: '<%=theme.gitalk.ClientSecret %>',
-    	        repo: '<%=theme.gitalk.repo %>',
-    	        owner: '<%=theme.gitalk.githubID %>',
-    	        admin: ['<%=theme.gitalk.adminUser %>'],
-    	        id: h_id,
-    	        distractionFreeMode: '<%=theme.gitalk.distractionFreeMode %>',
-    	        language: '<%=theme.gitalk.language %>',
-    	        perPage: parseInt('<%=theme.gitalk.perPage %>',10)
-    	    })
-    	    gitalk.render('comments')
-    	})
-	})
+    $.getScript('<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/js/gitalk.js', function () {
+        var gitalk = new Gitalk({
+            clientID: '<%=theme.gitalk.ClientID %>',
+            clientSecret: '<%=theme.gitalk.ClientSecret %>',
+            repo: '<%=theme.gitalk.repo %>',
+            owner: '<%=theme.gitalk.githubID %>',
+            admin: ['<%=theme.gitalk.adminUser %>'],
+			id: md5(location.pathname),
+            distractionFreeMode: '<%=theme.gitalk.distractionFreeMode %>',
+            language: '<%=theme.gitalk.language %>',
+            perPage: parseInt('<%=theme.gitalk.perPage %>',10)
+        })
+        gitalk.render('comments')
+    })
 </script>
