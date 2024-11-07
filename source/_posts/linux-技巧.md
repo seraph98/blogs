@@ -22,3 +22,31 @@ tags:
 >
 > 如果要找隐藏文件，执行 grep -l 'xx' .**
 
+
+
+# find . -type d -exec rm -rf {} +
+
+删除目录下所有的文件夹
+
+- find . -type d 找到所有目录类型文件
+
+- -exec rm -rf 执行删除指令
+
+- {} 是占位符，表示所有 find 找到的项目
+
+- +和/ 可以互换， + 表示一次性删除， / 表示顺次删除
+
+  - +:`rm -rf dir1 dir2 dir3 ... dir10`
+
+  - /:
+
+    ```
+    rm -rf dir1
+    rm -rf dir2
+    rm -rf dir3
+    ...
+    rm -rf dir10
+    
+    ```
+
+  
