@@ -295,7 +295,7 @@ giscus:
   emitMetadata: 1           # 是否输出Github讨论的元数据, 0 1
   inputPosition: top        # 输入框位置, top bottom
   theme: light              # 主题, 支持的主题请查看giscus网站
-  lang: zh-CN               # 主题语言,支持的语言请查看giscus网站
+  lang: en              # 主题语言,支持的语言请查看giscus网站
   loading:              # 是否启用懒加载
   # 官方文档: https://giscus.app/
 
