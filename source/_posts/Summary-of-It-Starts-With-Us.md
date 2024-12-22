@@ -12,7 +12,7 @@ tags:
 
 What’s better than a story about messy relationships, emotional growth, and steamy romance? A sequel that delivers all that and more! Colleen Hoover’s *It Starts With Us* isn’t just a continuation of *It Ends With Us*; it’s an emotional comeback tour for fans who demanded more Lily Bloom and Atlas Corrigan. Spoiler alert: it’s worth the hype.
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*3GasA2IujhzBPrg0dsbdeQ.png" alt="img" style="zoom:25%;" />
+<img src="https://cdn-images-1.medium.com/max/1600/1*3GasA2IujhzBPrg0dsbdeQ.png" style="zoom:25%;" />
 
 **CLAIM THIS BOOK** [**FOR FREE FROM AMAZON**](https://amzn.to/3ZON0RJ)
 

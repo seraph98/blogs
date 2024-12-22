@@ -10,7 +10,7 @@ tags:
 
 James Clear's "Atomic Habits" is a delightful manual for anyone looking to upgrade their life, one tiny tweak at a time. The book is built around a simple yet profound idea: small habits, when repeated consistently, can lead to massive results. It's like the compound interest of self-improvement. Clear doesn’t just preach—he provides a science-backed, hilariously relatable framework for turning your life from "meh" to "whoa."
 
-<img src="https://gitlab.com/seraph98/picgo/-/raw/main/pictures/2024/12/22_21_27_19_image-20241222212719516.png" alt="image-20241222212719516" style="zoom:25%;" />
+<img src="https://gitlab.com/seraph98/picgo/-/raw/main/pictures/2024/12/22_21_27_19_image-20241222212719516.png" style="zoom:25%;" />
 
 **CLAIM THIS BOOK [FOR FREE FROM AMAZON](https://amzn.to/407oWLp)**
 
