@@ -12,7 +12,7 @@ James Clear's "Atomic Habits" is a delightful manual for anyone looking to upgra
 
 <img src="https://gitlab.com/seraph98/picgo/-/raw/main/pictures/2024/12/22_21_27_19_image-20241222212719516.png" alt="image-20241222212719516" style="zoom:25%;" />
 
-**GLAIM THIS BOOK [FOR FREE FROM AMAZON](https://amzn.to/407oWLp)**
+**CLAIM THIS BOOK [FOR FREE FROM AMAZON](https://amzn.to/407oWLp)**
 
 ## The Core of Atomic Habits: Make Tiny Changes, Reap Big Rewards
 
@@ -49,7 +49,7 @@ Clear’s genius advice: reduce friction. Want to hit the gym? Lay out your work
 
 Immediate rewards fuel habits. Think small victories. Finished your workout? Bask in the glow of checking it off your habit tracker. Humans are suckers for instant gratification—use it to your advantage.
 
-**GLAIM THIS BOOK [FOR FREE FROM AMAZON](https://amzn.to/407oWLp)**
+**CLAIM THIS BOOK [FOR FREE FROM AMAZON](https://amzn.to/407oWLp)**
 
 ### Bad Habits? Flip the Script
 
@@ -86,4 +86,4 @@ Clear doesn’t just throw research at you; he weaves it into entertaining anecd
 
 "Atomic Habits" is a game-changer because it’s not about willpower or motivation; it’s about strategy. It’s the playbook for anyone who’s tired of starting over and ready to build a life they love, one tiny habit at a time. Just remember: success is the product of daily habits, not once-in-a-while heroics. Or, as Clear might put it: Dream big, but start small. Very small. Atomically small.
 
-**GLAIM THIS BOOK [FOR FREE FROM AMAZON](https://amzn.to/407oWLp)**
+**CLAIM THIS BOOK [FOR FREE FROM AMAZON](https://amzn.to/407oWLp)**
